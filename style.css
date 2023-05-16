@@ -90,8 +90,7 @@ nav ul li a:hover::after{
 }
 .profile-picture img{
     border-radius: 50%;
-    width: 100%;
-    
+    width: 100%;  
 }
 /* --------------------about------------------ */
 #about{
