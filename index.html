@@ -1,191 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sarvesh_Yadav</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/6773008001.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6773008001.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <h1><span>P</span>ortfolio</h1>
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="intro">
-                <div class="header-text">
-                    <h1>Hi, I am <span>Sarvesh Yadav</span></h1>
-                    <h2>Full Stack Developer</h2>
-                </div>
-                <div class="profile-picture">
-                        <img src="Images/Sarvesh2.png" alt="">     
-                </div>
-            </div>
+      <div class="container">
+        <nav>
+          <h1><span>P</span>ortfolio</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="intro">
+          <div class="header-text">
+            <h1>Hi, I am <span>Sarvesh Yadav</span></h1>
+            <h2>Full Stack Developer</h2>
+          </div>
+          <div class="profile-picture">
+            <img src="Images/Sarvesh2.png" alt="" />
+          </div>
         </div>
+      </div>
     </div>
     <!-- ------------about---------------------------------->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="Images/Sarvesh1.png">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>I am a talented, ambitious, and hardworking individual,
-                        with broad skills. Furthermore, I am adept at handling
-                        multiple tasks on a daily basis competently and working
-                        well under pressure. I am a fast learner and a curious 
-                        person who always tries to learn about new things. 
-                        I like to play outdoor games, especially Kabbadi.</p>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/Sarvesh1.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a talented, ambitious, and hardworking individual, with broad
+              skills. Furthermore, I am adept at handling multiple tasks on a
+              daily basis competently and working well under pressure. I am a
+              fast learner and a curious person who always tries to learn about
+              new things. I like to play outdoor games, especially Kabbadi.
+            </p>
 
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
-                            <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
-                        </div>
-                        <div class="tab-contents active-tab" id="skills">
-                            <ul>
-                                <li><span>Java</span></li>
-                                <li><span>HTML</span></li>
-                                <li><span>CSS</span></li>
-                                <li><span>Javascript</span></li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>Terna Engineering College, Navi Mumbai.</span> <br>Bachelor of Engineering<br>
-                                    Electronics and Telecommunication Engineering <br>
-                                    Jul 16 - Nov 20</li>
-                                <li><span>Gyanodaya Vidya Mandir.</span> <br> Intermediate (Class XII) <br>
-                                    Science <br>
-                                    Jun 14 - May 16</li>
-                                <li><span>R.J Thakur English Medium School.</span> <br> Matriculation (Class X) <br>
-                                    Jun 13 - May 14</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="experiance">
-                            <ul>
-                                <li><span>Quality kiosk</span></li>
-                                <li><span>Thyrocare</span></li>
-                            </ul>
-                        </div>
-                </div>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experiance')">
+                Experiance
+              </p>
             </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Java</span></li>
+                <li><span>HTML</span></li>
+                <li><span>CSS</span></li>
+                <li><span>Javascript</span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Terna Engineering College, Navi Mumbai.</span>
+                  <br />Bachelor of Engineering<br />
+                  Electronics and Telecommunication Engineering <br />
+                  Jul 16 - Nov 20
+                </li>
+                <li>
+                  <span>Gyanodaya Vidya Mandir.</span> <br />
+                  Intermediate (Class XII) <br />
+                  Science <br />
+                  Jun 14 - May 16
+                </li>
+                <li>
+                  <span>R.J Thakur English Medium School.</span> <br />
+                  Matriculation (Class X) <br />
+                  Jun 13 - May 14
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experiance">
+              <ul>
+                <li><span>Quality kiosk</span></li>
+                <li><span>Thyrocare</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-<!-- --------------------------------------Projects-------------------------------------------->
+    <!-- --------------------------------------Projects-------------------------------------------->
     <div id="projects">
-        <div class="container">
-            <h1 class="sub-title">Projects</h1>
-            <div class="project-list">
-                <div class="project">
-                    <img src="Images/project-image.jpg">
-                    <div class="layer">
-                        <h3>Portfolio</h3>
-                        <p>Discription</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="project">
-                    <img src="Images/project-image.jpg">
-                    <div class="layer">
-                        <h3>Portfolio</h3>
-                        <p>Discription</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="project">
-                    <img src="Images/project-image.jpg">
-                    <div class="layer">
-                        <h3>Portfolio</h3>
-                        <p>Discription</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+          <div class="project">
+            <img src="Images/project-image.jpg" />
+            <div class="layer">
+              <h3>Portfolio</h3>
+              <p>Discription</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
             </div>
+          </div>
+          <div class="project">
+            <img src="Images/project-image.jpg" />
+            <div class="layer">
+              <h3>Portfolio</h3>
+              <p>Discription</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="Images/project-image.jpg" />
+            <div class="layer">
+              <h3>Portfolio</h3>
+              <p>Discription</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-<!----------------------------------------Contact-------------------------------------------->
+    <!----------------------------------------Contact-------------------------------------------->
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i> sarveshsyadav8@gmail.com</p>
-                    <p><i class="fa-sharp fa-solid fa-phone"></i> 8433873623</p>
-                    <div class="social-icons">
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                    <a href="#" download class="btn">Download CV</a>
-                </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                    <span id="msg"></span>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> sarveshsyadav8@gmail.com
+            </p>
+            <p><i class="fa-sharp fa-solid fa-phone"></i> 8433873623</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
             </div>
+            <a href="/Sarvesh Samsher Yadav.pdf" download class="btn"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
         </div>
+      </div>
     </div>
     <script>
-
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
         }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
     </script>
     <script>
+      var sidemenu = document.getElementById("sidemenu");
 
-        var sidemenu = document.getElementById("sidemenu");
-
-        function openmenu(){
-            sidemenu.style.right ="0";
-        }
-        function closemenu(){
-            sidemenu.style.right ="-200px";
-        }
-
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
     </script>
-      <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzl8DljM9h745uqCOmKCrwKhXmF_o2iv1ErbiYCT73k-VizKnAYdbvLbADvRSyU6punBg/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Message sent sucessfully"
-                setTimeout(function(){
-                    msg.innerHTML = ""
-                },500)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
-</body>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzl8DljM9h745uqCOmKCrwKhXmF_o2iv1ErbiYCT73k-VizKnAYdbvLbADvRSyU6punBg/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent sucessfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 500);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
 </html>
