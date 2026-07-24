@@ -1,267 +1,475 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sarvesh_Yadav</title>
+    <title>Sarvesh Yadav — Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Sarvesh Yadav, Full Stack Developer building fintech, property management, and election management systems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/6773008001.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- <script>
-      window.embeddedChatbotConfig = {
-      chatbotId: "TZ_6ezuoAoTtvbJOq7JbV",
-      domain: "www.chatbase.co"
-      }
-      </script>
-      <script
-      src="https://www.chatbase.co/embed.min.js"
-      chatbotId="TZ_6ezuoAoTtvbJOq7JbV"
-      domain="www.chatbase.co"
-      defer>
-      </script> -->
-      <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-<script src="https://mediafiles.botpress.cloud/5c79ef12-a8cd-4784-bf03-967554973630/webchat/config.js" defer></script>
   </head>
   <body>
-    <div id="header">
-      <div class="container">
-        <nav>
-          <h1><span>P</span>ortfolio</h1>
-          <ul id="sidemenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-          </ul>
-          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="intro">
-          <div class="header-text">
-            <h1>Hi, I am <span>Sarvesh Yadav</span></h1>
-            <h2>Full Stack Developer</h2>
-          </div>
-          <div class="profile-picture">
-            <img src="Images/images.png" alt="" />
+    <!-- registration marks -->
+    <div class="reg reg-tl" aria-hidden="true"></div>
+    <div class="reg reg-tr" aria-hidden="true"></div>
+    <div class="reg reg-bl" aria-hidden="true"></div>
+    <div class="reg reg-br" aria-hidden="true"></div>
+
+    <!-- side tab index / nav -->
+    <nav class="tabs" id="tabs" aria-label="Section index">
+      <a href="#hero" class="tab active" data-target="hero"
+        ><span class="tab-num">00</span><span class="tab-name">Cover</span></a
+      >
+      <a href="#about" class="tab" data-target="about"
+        ><span class="tab-num">01</span><span class="tab-name">About</span></a
+      >
+      <a href="#experience" class="tab" data-target="experience"
+        ><span class="tab-num">02</span
+        ><span class="tab-name">Experience</span></a
+      >
+      <a href="#projects" class="tab" data-target="projects"
+        ><span class="tab-num">03</span
+        ><span class="tab-name">Projects</span></a
+      >
+      <a href="#education" class="tab" data-target="education"
+        ><span class="tab-num">04</span
+        ><span class="tab-name">Education</span></a
+      >
+      <a href="#contact" class="tab" data-target="contact"
+        ><span class="tab-num">05</span><span class="tab-name">Contact</span></a
+      >
+    </nav>
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Open menu"
+      aria-expanded="false"
+    >
+      <span></span><span></span><span></span>
+    </button>
+
+    <main>
+      <!-- ================= HERO / COVER SHEET ================= -->
+      <section id="hero" class="sheet hero">
+        <div class="grid-overlay" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <p class="eyebrow">
+            Full Stack Developer — Fintech · Proptech · Govtech
+          </p>
+          <h1 class="hero-title">Sarvesh<br />Yadav</h1>
+          <p class="hero-lede">
+            I design and ship production web systems — accounting platforms,
+            property management tools, and election management software — where
+            the interface has to be trustworthy, fast, and correct down to the
+            last edge case.
+          </p>
+          <div class="hero-actions">
+            <a href="#experience" class="btn btn-primary">View the work</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- ------------about---------------------------------->
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="Images/Sarvesh1.png" />
+
+        <div class="titleblock">
+          <div class="tb-cell">
+            <span class="tb-label">Drawn by</span
+            ><span class="tb-value">Sarvesh Yadav</span>
           </div>
-          <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p>
-              I am a talented, ambitious, and hardworking individual, with broad
-              skills. Furthermore, I am adept at handling multiple tasks on a
-              daily basis competently and working well under pressure. I am a
-              fast learner and a curious person who always tries to learn about
-              new things. I like to play outdoor games, especially Kabbadi.
+          <div class="tb-cell">
+            <span class="tb-label">Discipline</span
+            ><span class="tb-value">Full Stack — React / Node / Laravel</span>
+          </div>
+          <div class="tb-cell">
+            <span class="tb-label">Location</span
+            ><span class="tb-value">Maharashtra, IN</span>
+          </div>
+          <div class="tb-cell">
+            <span class="tb-label">Rev</span
+            ><span class="tb-value">2026.07</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= ABOUT ================= -->
+      <section id="about" class="sheet">
+        <div class="container">
+          <header class="sheet-head">
+            <span class="sheet-num">01</span>
+            <h2 class="sheet-title">About</h2>
+            <span class="dim-line" aria-hidden="true"></span>
+          </header>
+
+          <div class="about-grid">
+            <p class="about-copy">
+              3+ years building for people who don't get to have a bad day at
+              work — accountants closing the books, property managers chasing a
+              payment, election officers under a deadline. I like the parts of
+              the job most people skip: input validation, job queues that don't
+              drop records, and interfaces that make the correct action the
+              obvious one. Outside of the editor, I'm usually on a kabaddi
+              court.
             </p>
 
-            <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('skills')">
-                Skills
-              </p>
-              <p class="tab-links" onclick="opentab('education')">Education</p>
-              <p class="tab-links" onclick="opentab('experiance')">
-                Experiance
-              </p>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
-              <ul>
-                <li><span>Java</span></li>
-                <li><span>HTML</span></li>
-                <li><span>CSS</span></li>
-                <li><span>Javascript</span></li>
-                <li><span>ReactJs</span></li>
-                <li><span>NextJs</span></li>
-                <li><span>NodeJs</span></li>
-                <li><span>MongoDB</span></li>
-                <li><span>MySQL</span></li>
-                <li><span>Firebase</span></li>
-                
-              </ul>
-            </div>
-            <div class="tab-contents" id="education">
-              <ul>
-                <li>
-                  <span>Terna Engineering College, Navi Mumbai.</span>
-                  <br />Bachelor of Engineering<br />
-                  Electronics and Telecommunication Engineering <br />
-                  Jul 16 - Nov 20
-                </li>
-                <li>
-                  <span>Gyanodaya Vidya Mandir.</span> <br />
-                  Intermediate (Class XII) <br />
-                  Science <br />
-                  Jun 14 - May 16
-                </li>
-                <li>
-                  <span>R.J Thakur English Medium School.</span> <br />
-                  Matriculation (Class X) <br />
-                  Jun 13 - May 14
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="experiance">
-              <ul>
-                <li><span>ATTPL Group</span>
-                  <br />Backend Development: Developed a scalable RESTful API using Node.js and Express.js, 
-                  integrated with a MySQL databasethrough Sequelize ORM. Optimized database queries to achieve
-                  a 30% reduction in response time. Deployed the application
-                  using Docker containers, and managed storage solutions with
-                  AWS S3, achieving 99.9% uptime.<br />
-                  Frontend Integration and Testing: Implemented and integrated the backend API with a responsive 
-                  frontend built using React.js and Material-UI, resulting in a 20% increase in user engagement. 
-                  Conducted comprehensive unit testing using Mocha and Chai, achieving 95% test coverage and reducing 
-                  bugs by 40% in production.<br />
-                  March 24 - Present
-                </li>
-                <li><span>Newton School</span>
-                  <br />Front-end: Vue.js, React, HTML5, CSS, JavaScript.<br />
-                  Backend: Node js, Express js, Mongo DB, Mongose.<br />
-                  December 22 - December 23
-                </li>
-                <li><span>Quality kiosk</span>
-                  <br />Monitor the system for issues, report them to the client promptly,
-                  and prepare detailed reports and summaries of all observed
-                  issues. Aim to identify and address 90% of issues within 24
-                  hours.<br />
-                  Facilitate effective communication between teams to ensure smooth operation, 
-                  conducting bi-weekly check-ins and maintaining a response time of under 1 hour 
-                  for intra-team queries.<br />
-                  June 21 - July 22
-                </li>
-              </ul>
+            <div class="legend">
+              <div class="legend-group">
+                <h3>Languages</h3>
+                <ul class="chips">
+                  <li>JavaScript</li>
+                  <li>TypeScript</li>
+                  <li>Java</li>
+                  <li>PHP</li>
+                </ul>
+              </div>
+              <div class="legend-group">
+                <h3>Frontend</h3>
+                <ul class="chips">
+                  <li>React.js</li>
+                  <li>Next.js</li>
+                  <li>Tailwind CSS</li>
+                  <li>Shadcn</li>
+                  <li>CoreUI</li>
+                  <li>Chakra UI</li>
+                </ul>
+              </div>
+              <div class="legend-group">
+                <h3>Backend</h3>
+                <ul class="chips">
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                  <li>PHP Laravel</li>
+                  <li>Sequelize ORM</li>
+                </ul>
+              </div>
+              <div class="legend-group">
+                <h3>Data &amp; Infra</h3>
+                <ul class="chips">
+                  <li>MySQL</li>
+                  <li>MongoDB</li>
+                  <li>Firebase</li>
+                  <li>Docker</li>
+                  <li>AWS S3</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- --------------------------------------Projects-------------------------------------------->
-    <div id="projects">
-      <div class="container">
-        <h1 class="sub-title">Projects</h1>
-        <div class="project-list">
-          <div class="project">
-            <img src="Images/redddit-clone-1.png" />
-            <div class="layer">
+      </section>
+
+      <!-- ================= EXPERIENCE ================= -->
+      <section id="experience" class="sheet">
+        <div class="container">
+          <header class="sheet-head">
+            <span class="sheet-num">02</span>
+            <h2 class="sheet-title">Experience</h2>
+            <span class="dim-line" aria-hidden="true"></span>
+          </header>
+
+          <ol class="log">
+            <li class="log-entry">
+              <div class="log-index">01</div>
+              <div class="log-body">
+                <div class="log-meta">
+                  <h3>
+                    Full Stack Developer
+                    <span class="at">— MOCHA Technology</span>
+                  </h3>
+                  <span class="log-date">Dec 2024 – Present · Mumbai</span>
+                </div>
+                <ul class="log-points">
+                  <li>
+                    Built responsive frontends with React.js, CoreUI, Next.js
+                    and Tailwind CSS, lifting user engagement 20%.
+                  </li>
+                  <li>
+                    Integrated Microsoft Graph API for a full calendar and
+                    meeting scheduling system.
+                  </li>
+                  <li>
+                    Built and maintained RESTful APIs in PHP Laravel with MySQL;
+                    added unit tests and async job queues for bulk data
+                    processing.
+                  </li>
+                  <li>
+                    Core products: <strong>Mocha Accounting</strong> and
+                    <strong>Mocha Manage</strong> — accounting and property
+                    management platforms covering financial operations, bulk
+                    uploads, reporting and click-to-print.
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="log-entry">
+              <div class="log-index">02</div>
+              <div class="log-body">
+                <div class="log-meta">
+                  <h3>
+                    Full Stack Developer <span class="at">— ATTPL Group</span>
+                  </h3>
+                  <span class="log-date">Mar 2024 – Nov 2024 · Remote</span>
+                </div>
+                <ul class="log-points">
+                  <li>
+                    Shipped a full-stack app on Node.js, Express.js, React.js
+                    and MySQL/Sequelize — 30% faster API responses, 99.9% uptime
+                    on Docker + AWS S3.
+                  </li>
+                  <li>
+                    Wired responsive frontend components to backend APIs with
+                    95% unit test coverage, cutting production bugs 40%.
+                  </li>
+                  <li>
+                    Core product: <strong>Election Management System</strong> —
+                    input validation removed 78% of user-generated errors; fully
+                    responsive across mobile, tablet and desktop.
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="log-entry">
+              <div class="log-index">03</div>
+              <div class="log-body">
+                <div class="log-meta">
+                  <h3>
+                    Full Stack Developer <span class="at">— Newton School</span>
+                  </h3>
+                  <span class="log-date">Dec 2022 – Feb 2024 · Remote</span>
+                </div>
+                <ul class="log-points">
+                  <li>
+                    Built full-stack apps with Next.js, React, HTML5, CSS and
+                    JavaScript on the front, Node.js/Express/MongoDB on the
+                    back.
+                  </li>
+                  <li>
+                    Core product: <strong>Reddit-Clone</strong> — Next.js,
+                    Firebase v9, Chakra UI, TypeScript, Recoil — 20% monthly
+                    growth in interactions, 99.9% uptime, personalized profiles
+                    and fast search.
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="log-entry">
+              <div class="log-index">04</div>
+              <div class="log-body">
+                <div class="log-meta">
+                  <h3>Test Engineer <span class="at">— Quality Kiosk</span></h3>
+                  <span class="log-date">Jun 2021 – Jul 2022 · Remote</span>
+                </div>
+                <ul class="log-points">
+                  <li>
+                    Monitored enterprise systems with Dynatrace, resolving 90%
+                    of issues within 24 hours; wrote incident reports for
+                    clients.
+                  </li>
+                  <li>
+                    Ran bi-weekly cross-team check-ins, keeping intra-team
+                    response time under an hour.
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ================= PROJECTS ================= -->
+      <section id="projects" class="sheet">
+        <div class="container">
+          <header class="sheet-head">
+            <span class="sheet-num">03</span>
+            <h2 class="sheet-title">Products &amp; Projects</h2>
+            <span class="dim-line" aria-hidden="true"></span>
+          </header>
+
+          <div class="cards">
+            <article class="card">
+              <span class="card-tag">Fintech</span>
+              <h3>Mocha Accounting</h3>
+              <p>
+                Accounting platform handling financial operations, bulk uploads,
+                report generation and click-to-print output.
+              </p>
+              <ul class="card-stack">
+                <li>React.js</li>
+                <li>PHP Laravel</li>
+                <li>MySQL</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <span class="card-tag">Proptech</span>
+              <h3>Mocha Manage</h3>
+              <p>
+                Property management platform built alongside Mocha Accounting,
+                sharing its bulk-data and reporting backbone.
+              </p>
+              <ul class="card-stack">
+                <li>Next.js</li>
+                <li>Tailwind CSS</li>
+                <li>PHP Laravel</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <span class="card-tag">Govtech</span>
+              <h3>Election Management System</h3>
+              <p>
+                Validation-first system that cut user-generated errors by 78%,
+                fully responsive across every device class.
+              </p>
+              <ul class="card-stack">
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MySQL / Sequelize</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <span class="card-tag">Social</span>
               <h3>Reddit-Clone</h3>
-              <p>Next.js | Firebase v9 |Chakra UI | TypeScript |
-                Recoil</p>
-              <a href="https://reddit-clone-git-main-sarvesh843.vercel.app/" target="_blank"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="project">
-            <img src="Images/souled-store-home.png" />
-            <div class="layer">
-              <h3>Souled-store cone</h3>
-              <p>React.js | Chakra UI | HTML | CSS | JavaScript</p>
-              <a href="https://souled-store.vercel.app/" target="_blank"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="project">
-            <img src="Images/ATTPL EMS.png" />
-            <div class="layer">
-              <h3>ATTPL EMS</h3>
-              <p>ReactJs | Material UI | JavaScript | CSS |
-                HTML5 | NodeJs | RestAPI</p>
-              <a href="https://app.attplems.com/" target="_blank"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
+              <p>
+                Community platform with secure personalized profiles and fast
+                search, driving 20% monthly growth in interactions.
+              </p>
+              <ul class="card-stack">
+                <li>Next.js</li>
+                <li>Firebase v9</li>
+                <li>Recoil</li>
+              </ul>
+            </article>
           </div>
         </div>
-      </div>
-    </div>
-    <!----------------------------------------Contact-------------------------------------------->
-    <div id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-            <p>
-              <i class="fa-solid fa-paper-plane"></i> sarveshsyadav8@gmail.com
-            </p>
-            <p><i class="fa-sharp fa-solid fa-phone"></i> 8433873623</p>
-            <div class="social-icons">
-              <a
-                href="https://www.linkedin.com/in/sarvesh-yadav-b63a05193"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
-              <a href="https://github.com/Sarvesh843" target="_blank"
-                ><i class="fa-brands fa-github"></i
-              ></a>
-            </div>
-            <a
-              href="/Images/Sarvesh_Samsher_Yadav.pdf"
-              download
-              class="btn btn2"
-              >Download CV</a
-            >
-          </div>
-          <div class="contact-right">
-            <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="Your Name" required />
-              <input
-                type="email"
-                name="Email"
-                placeholder="Your email"
-                required
-              />
-              <textarea
-                name="Message"
-                rows="6"
-                placeholder="Your Message"
-              ></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
-            </form>
-            <span id="msg"></span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script>
-      var tablinks = document.getElementsByClassName("tab-links");
-      var tabcontents = document.getElementsByClassName("tab-contents");
-      function opentab(tabname) {
-        for (tablink of tablinks) {
-          tablink.classList.remove("active-link");
-        }
-        for (tabcontent of tabcontents) {
-          tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-      }
-    </script>
-    <script>
-      var sidemenu = document.getElementById("sidemenu");
+      </section>
 
-      function openmenu() {
-        sidemenu.style.right = "0";
-      }
-      function closemenu() {
-        sidemenu.style.right = "-200px";
-      }
-    </script>
+      <!-- ================= EDUCATION ================= -->
+      <section id="education" class="sheet">
+        <div class="container">
+          <header class="sheet-head">
+            <span class="sheet-num">04</span>
+            <h2 class="sheet-title">Education</h2>
+            <span class="dim-line" aria-hidden="true"></span>
+          </header>
+
+          <div class="edu-row">
+            <div class="edu-year">2016 – 2020</div>
+            <div class="edu-body">
+              <h3>Terna Engineering College, Navi Mumbai</h3>
+              <p>B.E. in Electronics &amp; Telecommunication Engineering</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT ================= -->
+      <section id="contact" class="sheet contact-sheet">
+        <div class="container">
+          <header class="sheet-head">
+            <span class="sheet-num">05</span>
+            <h2 class="sheet-title">Contact</h2>
+            <span class="dim-line" aria-hidden="true"></span>
+          </header>
+
+          <div class="contact-grid">
+            <div class="contact-left">
+              <p class="contact-lede">
+                Have a system that needs building, or one that needs fixing?
+                Send the brief over.
+              </p>
+
+              <ul class="contact-list">
+                <li>
+                  <span class="contact-label">Email</span>
+                  <a href="mailto:sarveshsyadav8@gmail.com"
+                    >sarveshsyadav8@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <span class="contact-label">Phone</span>
+                  <a href="tel:+918433873623">+91 84338 73623</a>
+                </li>
+                <li>
+                  <span class="contact-label">LinkedIn</span>
+                  <a
+                    href="https://www.linkedin.com/in/sarvesh-yadav-b63a05193"
+                    target="_blank"
+                    rel="noopener"
+                    >sarvesh-yadav</a
+                  >
+                </li>
+                <li>
+                  <span class="contact-label">GitHub</span>
+                  <a
+                    href="https://github.com/Sarvesh843"
+                    target="_blank"
+                    rel="noopener"
+                    >Sarvesh843</a
+                  >
+                </li>
+              </ul>
+
+              <a
+                href="/Sarvesh_Yadav_CV.pdf"
+                download
+                class="btn btn-primary btn-download"
+                >Download CV</a
+              >
+            </div>
+
+            <div class="contact-right">
+              <form name="submit-to-google-sheet" id="contactForm">
+                <label class="field">
+                  <span>Your name</span>
+                  <input type="text" name="Name" placeholder="Name" required />
+                </label>
+                <label class="field">
+                  <span>Your email</span>
+                  <input
+                    type="email"
+                    name="Email"
+                    placeholder="email@gmail.com"
+                    required
+                  />
+                </label>
+                <label class="field">
+                  <span>Message</span>
+                  <textarea
+                    name="Message"
+                    rows="5"
+                    placeholder="Tell me about the project..."
+                  ></textarea>
+                </label>
+                <button type="submit" class="btn btn-primary">
+                  Send message
+                </button>
+                <span id="msg" role="status" aria-live="polite"></span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="stamp">
+        <div class="container stamp-inner">
+          <span>© 2026 Sarvesh Yadav</span>
+        </div>
+      </footer>
+    </main>
+
     <script>
       const scriptURL =
-        "https://script.google.com/macros/s/AKfycbzl8DljM9h745uqCOmKCrwKhXmF_o2iv1ErbiYCT73k-VizKnAYdbvLbADvRSyU6punBg/exec";
+        "https://script.google.com/macros/s/AKfycbzGkE80hXI33twTaNPYbBh8nksCKC8H_xIwQvt2pojxBg0W2qs0_V-brYeRjVp4zDSTCA/exec";
       const form = document.forms["submit-to-google-sheet"];
       const msg = document.getElementById("msg");
 
